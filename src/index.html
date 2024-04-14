@@ -10,12 +10,19 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <form name="get-photo">
-      <input type="text">
-      <button type="submit">Search</button>
-    </form>
+  <!-- <div class="wrapper"> -->
+  <form name="search">
+    <input type="text" name="search" placeholder="Search images...">
+    <button type="submit">Search</button>
+  </form>
+  <div class="loader-wrapper">
+    <span class="loader is-hidden"></span>
   </div>
+
+  <ul class="gallery">
+  </ul>
+  <!-- </div> -->
+  <script type="module" src="./main.js"></script>
 </body>
 
 </html>
